@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
+	font-family: 'VT323', monospace;
 }
 
 header {
@@ -14,22 +15,70 @@ header {
 	flex-direction: column;
 }
 
+#search{
+	border-radius: 10px;
+	border: 2px solid #555555;
+	position: center;
+	float: left;
+  	display: block;
+  	color: black;
+  	text-align: center;
+  	padding: 10px 14px;
+  	text-decoration: none;
+  	font-size: 17px;
+
+}
+#findBtn{
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	padding: 12px 14px;
+}
+
+
+#search input[type = text]{
+	float: right;
+	padding: 6px;
+  	border: none;
+  	margin-top: 8px;
+  	margin-right: 16px;
+  	font-size: 17px;
+}
+
 .cards {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	overflow: auto;
+    width: 100%;
 }
-
-#first {
-	background-color: pink;
-}
-
-#second {
-	background-color: blue;
-}
-
+.card{
+     overflow: auto;
+     width: 25%;
+     border: solid black;
+     border-radius: 4px;
+     box-shadow: 0 4px 8px;
+     padding-left: 8.4%;
+	}
+.container{
+       overflow: auto;
+       width: 100%;
+       position: center;
+    }
 .poke-img {
 	display: block;
 	width: 100px;
 	height: 100px;
 }
+
+#first {
+	background-color:;
+	position: center;
+}
+
+#second {
+	background-color:;
+	position: center;
+}
+
+
